@@ -9,7 +9,7 @@ public class JoinGameEvent implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         event.getPlayer().sendMessage("Добро пожаловать в CS2Craft");
-        if (CsGameplay.sorting) {
+        if (CsGameplay.sorting)  {
             CsGameplay.tptolobby(event.getPlayer());
         }
     }
