@@ -1,0 +1,27 @@
+name: CS2craft
+version: '${project.version}'
+main: org.ezhik.cs2craft.CS2craft
+api-version: '1.18'
+Author: 'Ezhik'
+commands:
+  tolobby:
+    description: 'Телепортирует всех игроков в лобби'
+    usage: 'tolobby'
+    permission: cscraft.tolobby
+
+  sortoff:
+    description: 'Выключает сортировку'
+    usage: 'sortoff'
+    permission: cscraft.sortoff
+
+  runbattle:
+    description: 'Запускает битву'
+    usage: 'runbattle'
+    permission: cscraft.runbattle
+  b:
+    description: 'Покупка оружия'
+    usage: 'b'
+  addbalance:
+    description: 'Добавляет монеты игроку'
+    usage: 'addbalance <кол-во> <игрок> <игрок> <игрок>'
+    permission: cscraft.addbalance
